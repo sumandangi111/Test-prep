@@ -1,0 +1,12 @@
+<nav class="navbar">
+    <div class="navbar-content">
+        <h1 class="navbar-brand">Testprep</h1>
+        {% if logged_in %}
+            <div class="navbar-right">
+                <span class="navbar-welcome">Welcome, <strong>{{ current_user }}</strong>!</span>
+                <a href="{{ url_for('history') }}" class="navbar-button">📚 History</a>
+                <a href="{{ url_for('logout') }}" class="navbar-button logout">Logout</a>
+            </div>
+        {% endif %}
+    </div>
+</nav>

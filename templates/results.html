@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    {% include 'navbar-logged-in.html' %}
+    <div class="container">
+        <h1>Quiz Complete! 🎉</h1>
+        
+        {% if total > 0 %}
+            {% set percentage = (score / total) * 100 %}
+            <h2>Your Score</h2>
+            <p><strong>{{ score }} / {{ total }}</strong> questions correct</p>
+            <p style="font-size: 1.3em; margin: 20px 0;">
+                <strong>{{ "%.1f" | format(percentage) }}%</strong>
+            </p>
+        {% else %}
+            <p>No questions were answered.</p>
+        {% endif %}
+        
+        <a href="{{ url_for('index') }}" class="button">📚 Take Another Quiz</a>
+    </div>
+</body>
+</html>

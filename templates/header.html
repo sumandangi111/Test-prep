@@ -1,0 +1,9 @@
+<header>
+    {% if logged_in %}
+        <p class="welcome-msg">
+            Welcome, {{ current_user }}! 
+            <a href="{{ url_for('history') }}" class="button small">History</a>
+            <a href="{{ url_for('logout') }}" class="button small">Logout</a>
+        </p>
+    {% endif %}
+</header>

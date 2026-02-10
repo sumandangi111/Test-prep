@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    {% include 'navbar-logged-in.html' %}
+    <div class="container">
+        
+        <h2>Question {{ q_num }} of {{ total_q }}</h2>
+        
+        <div id="timer-box">Time Left: <span id="timer">15</span>s</div>
+        
+        <form id="quiz-form">
+            <p class="question">{{ question.question }}</p>
+
+            <div class="options">
+                {% for option in question.options_shuffled %}
+                <label>
+                    <input type="radio" name="answer" value="{{ option }}" required>
+                    {{ option }}
+                </label>
+                {% endfor %}
+            </div>
+
+            <button type="submit" id="next-btn">Next</button>
+        </form>
+    </div>
+    
+    <script src="{{ url_for('static', filename='quiz_timer.js') }}"></script>
+</body>
+</html>

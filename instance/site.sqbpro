@@ -1,0 +1,1044 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="site.db" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure browser pragmas query" current="1"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="1907"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><table title="question" custom_title="0" dock_id="2" table="4,8:mainquestion"/><dock_state state="000000ff00000000fd0000000100000002000003cb00000258fc0100000002fb000000160064006f0063006b00420072006f00770073006500310100000000000003cb0000000000000000fb000000160064006f0063006b00420072006f00770073006500320100000000000003cb0000013300ffffff000002690000000000000004000000040000000800000008fc00000000"/><default_encoding codec=""/><browse_table_settings><table schema="main" name="question" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="35"/><column index="2" value="111"/><column index="3" value="300"/><column index="4" value="175"/><column index="5" value="191"/><column index="6" value="175"/><column index="7" value="175"/><column index="8" value="183"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table></browse_table_settings></tab_browse><tab_sql><sql name="SQL 1">INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Python', 'What is the output of print(type([]))?', 'list', 'tuple', 'dict', 'set', 'list');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Python', 'Which keyword is used to create a function in Python?', 'def', 'function', 'fun', 'define', 'def');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Python', 'What is the output of 3 * 1**3?', '3', '9', '1', '27', '3');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Python', 'Which of the following is mutable?', 'tuple', 'list', 'string', 'int', 'list');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Python', 'What is a generator function in Python?', 'A function that uses the return keyword', 'A function that uses the yield keyword', 'A class used for iteration', 'A built-in Python type', 'A function that uses the yield keyword');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Python', 'Which of these is used to handle exceptions?', 'try', 'except', 'finally', 'All of the above', 'All of the above');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Python', 'Which method is used to add an item to a list?', 'insert()', 'append()', 'add()', 'push()', 'append()');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Python', 'What is the output of len(&quot;Hello&quot;)?', '4', '5', '6', 'Error', '5');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Python', 'Which of these is not a Python data type?', 'list', 'tuple', 'array', 'dict', 'array');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Python', 'Which operator is used for floor division?', '/', '//', '%', '**', '//');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Python', 'How do you start a comment in Python?', '#', '//', '--', '/*', '#');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Python', 'Which of the following functions converts a string to lowercase?', 'lower()', 'uppercase()', 'tolower()', 'small()', 'lower()');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Python', 'Which keyword is used to define a class?', 'def', 'class', 'function', 'define', 'class');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Python', 'What is the output of bool(0)?', 'True', 'False', '0', 'None', 'False');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Python', 'Which function returns the absolute value of a number?', 'abs()', 'fabs()', 'absolute()', 'math()', 'abs()');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Python', 'Which statement is used to exit a loop?', 'stop', 'quit', 'exit', 'break', 'break');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Python', 'Which method removes all elements from a list?', 'clear()', 'remove()', 'del', 'pop()', 'clear()');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Python', 'What is the output of 2 ** 3?', '6', '8', '9', '16', '8');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Python', 'Which of these is an immutable type?', 'list', 'set', 'tuple', 'dict', 'tuple');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Python', 'How do you create an empty set?', '{}', 'set()', '()', 'emptyset()', 'set()');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Python', 'What is the keyword used to define an anonymous function?', 'func', 'def', 'lambda', 'anon', 'lambda');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Python', 'Which built-in function can get the length of an object?', 'count()', 'len()', 'size()', 'length()', 'len()');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Python', 'Which function is used to get user input?', 'get()', 'input()', 'scan()', 'read()', 'input()');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Python', 'Which function returns the largest number?', 'max()', 'largest()', 'top()', 'big()', 'max()');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Python', 'What is the output of print(10 &gt; 9)?', 'True', 'False', 'Error', 'None', 'True');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Python', 'Which of the following is used to import a module?', 'use', 'import', 'include', 'require', 'import');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Python', 'Which method returns keys from a dictionary?', 'all()', 'keys()', 'getkeys()', 'values()', 'keys()');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Python', 'What is the correct way to open a file for reading?', 'open(&quot;file.txt&quot;, &quot;r&quot;)', 'open(&quot;file.txt&quot;, &quot;read&quot;)', 'open(&quot;file.txt&quot;)', 'file.open(&quot;r&quot;)', 'open(&quot;file.txt&quot;, &quot;r&quot;)');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Python', 'Which method adds an element to a set?', 'add()', 'append()', 'insert()', 'push()', 'add()');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Python', 'What is the output of print(&quot;2&quot; + &quot;3&quot;)?', '5', '23', 'Error', 'None', '23');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Python', 'What is the output of print(2 == 2.0)?', 'True', 'False', 'Error', 'None', 'True');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Python', 'Which function is used to find the minimum value?', 'min()', 'minimum()', 'lowest()', 'smallest()', 'min()');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Python', 'Which operator is used to check object identity?', '==', 'is', '=', '===', 'is');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Python', 'What does the “continue” statement do?', 'Stops the loop', 'Skips the current iteration', 'Exits program', 'Restarts loop', 'Skips the current iteration');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Python', 'What is the output of print(type({}))?', 'dict', 'set', 'list', 'tuple', 'dict');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Python', 'Which keyword is used to inherit a class?', 'this', 'inherits', 'extends', 'class Child(Parent):', 'class Child(Parent):');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Python', 'Which module in Python is used for regular expressions?', 're', 'regex', 'pyregex', 'match', 're');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Python', 'Which keyword is used to create an iterator?', 'iter', 'yield', 'next', 'for', 'yield');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Python', 'Which method is used to convert a string into a list?', 'list()', 'split()', 'separate()', 'divide()', 'split()');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Python', 'What is the output of bool(&quot;&quot;)?', 'True', 'False', 'None', 'Error', 'False');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Python', 'Which of the following creates a tuple?', '(1,2,3)', '[1,2,3]', '{1,2,3}', 'tuple[1,2,3]', '(1,2,3)');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Python', 'Which function can be used to find the data type of an object?', 'typeof()', 'type()', 'datatype()', 'classof()', 'type()');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Python', 'How can you remove an element from a list by index?', 'delete()', 'remove()', 'pop()', 'discard()', 'pop()');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Python', 'Which function can be used to get the ASCII value of a character?', 'ascii()', 'ord()', 'chr()', 'ordval()', 'ord()');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Python', 'Which function returns a range of numbers?', 'range()', 'numbers()', 'list()', 'loop()', 'range()');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Python', 'Which function is used to round numbers?', 'round()', 'approx()', 'floor()', 'ceil()', 'round()');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Python', 'Which library is used for mathematical operations?', 'math', 'cmath', 'numpy', 'All of the above', 'All of the above');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Python', 'Which statement is used to define a block of code in Python?', 'Braces {}', 'Indentation', 'Parentheses ()', 'Colon :', 'Indentation');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Python', 'Which keyword is used to handle missing code?', 'pass', 'continue', 'skip', 'next', 'pass');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Python', 'Which keyword is used to import all functions from a module?', 'import *', 'include all', 'from module all', 'get all', 'import *');
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Java', 'Which keyword is used to define a class in Java?', 'class', 'define', 'struct', 'object', 'class');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Java', 'Which of these is not a Java primitive data type?', 'int', 'boolean', 'String', 'char', 'String');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Java', 'Which function is the entry point of any Java program?', 'start()', 'main()', 'run()', 'execute()', 'main()');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Java', 'Which of these is used to output text in Java?', 'print()', 'System.out.print()', 'echo()', 'write()', 'System.out.print()');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Java', 'Which keyword is used to inherit a class?', 'this', 'extends', 'implements', 'inherits', 'extends');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Java', 'Which keyword is used to implement an interface?', 'extends', 'interface', 'implements', 'inherit', 'implements');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Java', 'Which of these is not an access modifier?', 'public', 'private', 'protected', 'static', 'static');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Java', 'Which operator is used to compare two values?', '=', '==', '!=', '&lt;&gt;', '==');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Java', 'Which symbol is used to end a statement in Java?', '.', ',', ';', ':', ';');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Java', 'Which keyword is used to create an object in Java?', 'create', 'new', 'alloc', 'object', 'new');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Java', 'Which of the following is not an OOP concept?', 'Encapsulation', 'Polymorphism', 'Compilation', 'Inheritance', 'Compilation');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Java', 'What is the default value of a boolean variable?', 'true', 'false', '0', 'null', 'false');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Java', 'Which keyword is used to stop a loop?', 'stop', 'exit', 'break', 'end', 'break');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Java', 'Which method can be used to find the length of a string?', 'size()', 'len()', 'length()', 'count()', 'length()');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Java', 'Which of these keywords is used for exception handling?', 'try', 'catch', 'throw', 'All of the above', 'All of the above');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Java', 'Which keyword is used to prevent inheritance?', 'final', 'static', 'const', 'sealed', 'final');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Java', 'What is the size of int in Java?', '2 bytes', '4 bytes', '8 bytes', '16 bytes', '4 bytes');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Java', 'Which data type is used to store decimal numbers?', 'int', 'double', 'boolean', 'char', 'double');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Java', 'Which function converts a string to an integer?', 'Integer.valueOf()', 'Integer.parseInt()', 'int()', 'toInt()', 'Integer.parseInt()');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Java', 'Which of these is used to allocate memory dynamically?', 'malloc()', 'allocate()', 'new', 'create()', 'new');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Java', 'What is the parent class of all classes in Java?', 'Object', 'Class', 'Base', 'Super', 'Object');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Java', 'Which collection class allows duplicate elements?', 'Set', 'Map', 'List', 'Queue', 'List');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Java', 'Which keyword is used to refer to the current object?', 'super', 'self', 'this', 'current', 'this');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Java', 'Which keyword is used to refer to the parent class object?', 'parent', 'super', 'base', 'this', 'super');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Java', 'Which method is called automatically when an object is created?', 'constructor', 'create()', 'init()', 'main()', 'constructor');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Java', 'What is the return type of the main() method?', 'void', 'int', 'String', 'boolean', 'void');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Java', 'Which of these is not a loop in Java?', 'for', 'while', 'foreach', 'repeat', 'repeat');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Java', 'Which package contains the Scanner class?', 'java.io', 'java.util', 'java.lang', 'java.net', 'java.util');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Java', 'Which of these is used to read input from the user?', 'Scanner', 'BufferedReader', 'InputStreamReader', 'All of the above', 'All of the above');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Java', 'Which of these statements is true about constructors?', 'They have a return type', 'They can be overloaded', 'They can be static', 'They cannot be parameterized', 'They can be overloaded');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Java', 'What is the default value of an object reference?', 'null', '0', 'undefined', 'empty', 'null');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Java', 'Which keyword is used to define constants?', 'constant', 'static', 'final', 'define', 'final');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Java', 'Which of these is a wrapper class for primitive types?', 'Integer', 'int', 'Float', 'Both A and C', 'Both A and C');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Java', 'Which exception is thrown when dividing by zero?', 'ArithmeticException', 'NullPointerException', 'IOException', 'NumberFormatException', 'ArithmeticException');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Java', 'Which interface is used to sort elements?', 'Comparator', 'Comparable', 'Sorter', 'Orderable', 'Comparable');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Java', 'Which collection class stores key-value pairs?', 'List', 'Set', 'Map', 'ArrayList', 'Map');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Java', 'Which method is used to compare two strings?', 'equals()', '==', 'compare()', 'match()', 'equals()');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Java', 'What is the default value of a local variable?', 'null', '0', 'Depends on type', 'No default value', 'No default value');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Java', 'Which statement is used to handle exceptions?', 'try-catch', 'if-else', 'switch', 'throw', 'try-catch');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Java', 'Which class is the parent of all exception classes?', 'Throwable', 'Exception', 'Error', 'Object', 'Throwable');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Java', 'Which keyword is used to manually throw an exception?', 'throw', 'throws', 'raise', 'error', 'throw');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Java', 'Which loop is guaranteed to execute at least once?', 'for', 'while', 'do-while', 'foreach', 'do-while');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Java', 'Which keyword is used for inheritance between interfaces?', 'implements', 'extends', 'inherits', 'interface', 'extends');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Java', 'Which operator is used to access class members?', '.', '-&gt;', '::', ':', '.');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Java', 'Which of these statements about constructors is false?', 'Constructors can be overloaded', 'Constructors can return values', 'Constructors initialize objects', 'Constructors have the same name as the class', 'Constructors can return values');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Java', 'Which of these keywords is used for garbage collection hint?', 'delete', 'free', 'finalize', 'dispose', 'finalize');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Java', 'Which of the following is not a Java feature?', 'Object-oriented', 'Platform-dependent', 'Robust', 'Secure', 'Platform-dependent');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Java', 'Which method is used to start a thread?', 'start()', 'run()', 'execute()', 'init()', 'start()');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Java', 'Which of these is used to implement multiple inheritance in Java?', 'classes', 'interfaces', 'abstract classes', 'constructors', 'interfaces');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Java', 'Which keyword is used to define an abstract class?', 'virtual', 'abstract', 'base', 'interface', 'abstract');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Java', 'Which operator is used for string concatenation?', '+', '&amp;', 'concat', 'append', '+');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Java', 'Which function is used to terminate a program?', 'break()', 'return', 'exit()', 'stop()', 'exit()');
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('C++', 'Which of the following is the correct syntax to output &quot;Hello World&quot; in C++?', 'printf(&quot;Hello World&quot;);', 'cout &lt;&lt; &quot;Hello World&quot;;', 'Console.WriteLine(&quot;Hello World&quot;);', 'System.out.println(&quot;Hello World&quot;);', 'cout &lt;&lt; &quot;Hello World&quot;;');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('C++', 'Which of the following is a valid C++ comment?', '// comment', '/* comment */', 'Both A and B', '# comment', 'Both A and B');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('C++', 'Which header file is required for using cout and cin?', '&lt;iostream&gt;', '&lt;stdio.h&gt;', '&lt;conio.h&gt;', '&lt;string.h&gt;', '&lt;iostream&gt;');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('C++', 'Which operator is used to allocate memory dynamically?', 'malloc', 'alloc', 'new', 'create', 'new');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('C++', 'Which operator is used to deallocate memory allocated by new?', 'free', 'delete', 'remove', 'clear', 'delete');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('C++', 'What is the default return type of a function in C++ if not specified?', 'int', 'void', 'float', 'double', 'int');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('C++', 'Which concept allows using the same function name for different purposes?', 'Overloading', 'Encapsulation', 'Abstraction', 'Inheritance', 'Overloading');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('C++', 'Which of the following is used to define a class in C++?', 'structure', 'typedef', 'class', 'namespace', 'class');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('C++', 'Which of these is used to access class members?', '.', '-&gt;', 'Both A and B', '::', 'Both A and B');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('C++', 'Which keyword is used to inherit a class?', 'extends', 'inherits', 'derived', 'public', 'public');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('C++', 'Which function is automatically called when an object is created?', 'Destructor', 'Constructor', 'Virtual function', 'Main function', 'Constructor');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('C++', 'Which function is automatically called when an object is destroyed?', 'Constructor', 'Destructor', 'Finalize', 'Terminate', 'Destructor');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('C++', 'Which of the following is not a type of constructor?', 'Default constructor', 'Parameterized constructor', 'Copy constructor', 'Virtual constructor', 'Virtual constructor');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('C++', 'Which keyword is used to define an inline function?', 'inline', 'macro', 'define', 'static', 'inline');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('C++', 'What is the scope resolution operator in C++?', '.', '-&gt;', '::', ':', '::');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('C++', 'Which of the following concepts is achieved by function overloading?', 'Polymorphism', 'Abstraction', 'Encapsulation', 'Inheritance', 'Polymorphism');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('C++', 'What is the symbol for the &quot;address of&quot; operator?', '@', '#', '&amp;', '*', '&amp;');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('C++', 'Which of the following is used to define a namespace in C++?', 'namespace', 'package', 'module', 'scope', 'namespace');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('C++', 'Which of the following is true about constructors?', 'They can have parameters', 'They cannot be overloaded', 'They return a value', 'They are private by default', 'They can have parameters');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('C++', 'Which of these functions must be declared as virtual to achieve polymorphism?', 'main()', 'constructor', 'destructor', 'member function', 'member function');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('C++', 'What does the &quot;this&quot; pointer point to?', 'Current object', 'Base class', 'Derived class', 'Global variable', 'Current object');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('C++', 'Which keyword prevents a variable from modification?', 'const', 'static', 'volatile', 'immutable', 'const');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('C++', 'Which operator cannot be overloaded?', '=', '==', '::', '+', '::');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('C++', 'What is the size of a pointer in 32-bit architecture?', '2 bytes', '4 bytes', '8 bytes', '16 bytes', '4 bytes');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('C++', 'Which keyword is used to define a constant in C++?', 'final', 'constant', 'const', 'static', 'const');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('C++', 'What is the default access specifier for class members in C++?', 'public', 'private', 'protected', 'none', 'private');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('C++', 'What will be the output of sizeof(char)?', '2', '4', '1', '8', '1');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('C++', 'Which of the following is used to read a single character from the console?', 'cin.get()', 'getc()', 'getchar()', 'read()', 'cin.get()');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('C++', 'What is function overloading?', 'Two functions with same name but different parameters', 'Two functions with same name and parameters', 'Multiple classes using same function', 'Multiple inheritance', 'Two functions with same name but different parameters');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('C++', 'Which of these is used for comments in C++?', '//', '/* */', 'Both A and B', '#', 'Both A and B');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('C++', 'Which loop is guaranteed to execute at least once?', 'for', 'while', 'do-while', 'none', 'do-while');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('C++', 'What is the default value of a static variable?', '0', '1', 'garbage', 'null', '0');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('C++', 'Which type of inheritance has more than one base class?', 'Single', 'Multiple', 'Multilevel', 'Hierarchical', 'Multiple');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('C++', 'Which function releases dynamically allocated memory?', 'delete', 'free()', 'remove()', 'clear()', 'delete');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('C++', 'What is the extension of a C++ source file?', '.java', '.cpp', '.py', '.cxx', '.cpp');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('C++', 'Which of the following is the correct syntax of an array?', 'int arr[] = {1,2,3};', 'int arr = [1,2,3];', 'int arr(3);', 'array&lt;int&gt; arr;', 'int arr[] = {1,2,3};');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('C++', 'What is the keyword used to define inheritance visibility?', 'public', 'protected', 'private', 'All of the above', 'All of the above');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('C++', 'Which of the following is a feature of OOP in C++?', 'Encapsulation', 'Polymorphism', 'Inheritance', 'All of the above', 'All of the above');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('C++', 'Which of these keywords makes a function not overrideable?', 'final', 'sealed', 'const', 'static', 'final');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('C++', 'What does the keyword &quot;friend&quot; mean?', 'Makes a class external', 'Allows access to private members', 'Declares a global function', 'None of these', 'Allows access to private members');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('C++', 'Which function is used to find the length of a string?', 'len()', 'strlen()', 'length()', 'count()', 'strlen()');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('C++', 'Which of the following denotes a pointer?', '&amp;', '*', '#', '%', '*');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('C++', 'Which header file is used for string functions?', '&lt;cstring&gt;', '&lt;string&gt;', '&lt;str.h&gt;', '&lt;text.h&gt;', '&lt;cstring&gt;');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('C++', 'Which of the following allows defining abstract functions?', 'Virtual function', 'Pure virtual function', 'Static function', 'Inline function', 'Pure virtual function');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('C++', 'What is the output of 10/4 in C++?', '2.5', '2', '3', 'Error', '2');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('C++', 'Which operator is overloaded for input stream?', '&lt;&lt;', '&gt;&gt;', '&lt;&gt;', '==', '&gt;&gt;');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('C++', 'Which keyword is used to prevent inheritance?', 'sealed', 'final', 'const', 'private', 'final');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('C++', 'What will happen if a destructor is defined with parameters?', 'Compilation error', 'Runtime error', 'Valid destructor', 'Ignored', 'Compilation error');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('C++', 'What type of language is C++?', 'Procedural', 'Object-Oriented', 'Both', 'None', 'Both');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('C++', 'What is used to define templates in C++?', 'template', 'define', 'macro', 'generic', 'template');
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('OOPs', 'What does OOP stand for?', 'Object-Oriented Programming', 'Object-Operation Process', 'Operator-Oriented Programming', 'Object-Oriented Process', 'Object-Oriented Programming');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('OOPs', 'Which of the following is not a feature of OOP?', 'Encapsulation', 'Inheritance', 'Polymorphism', 'Compilation', 'Compilation');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('OOPs', 'Which of the following represents the concept of wrapping data and functions together?', 'Abstraction', 'Encapsulation', 'Inheritance', 'Polymorphism', 'Encapsulation');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('OOPs', 'Which concept allows us to reuse code from existing classes?', 'Polymorphism', 'Abstraction', 'Inheritance', 'Encapsulation', 'Inheritance');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('OOPs', 'Which of the following is an example of polymorphism?', 'Function Overloading', 'Encapsulation', 'Data Hiding', 'Data Binding', 'Function Overloading');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('OOPs', 'What is the process of hiding internal details called?', 'Abstraction', 'Encapsulation', 'Polymorphism', 'Inheritance', 'Abstraction');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('OOPs', 'Which of the following allows multiple classes to have the same function name but different behavior?', 'Encapsulation', 'Polymorphism', 'Inheritance', 'Abstraction', 'Polymorphism');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('OOPs', 'Which of the following is achieved using the &quot;private&quot; access specifier?', 'Encapsulation', 'Inheritance', 'Polymorphism', 'Abstraction', 'Encapsulation');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('OOPs', 'What is a class in OOP?', 'A blueprint for objects', 'An instance of an object', 'A data type', 'A variable', 'A blueprint for objects');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('OOPs', 'What is an object?', 'An instance of a class', 'A data type', 'A keyword', 'A function', 'An instance of a class');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('OOPs', 'Which keyword is used to define a class?', 'object', 'class', 'define', 'create', 'class');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('OOPs', 'Which type of function is automatically called when an object is created?', 'Constructor', 'Destructor', 'Main', 'Static', 'Constructor');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('OOPs', 'Which function is automatically called when an object is destroyed?', 'Destructor', 'Constructor', 'Virtual', 'Finalize', 'Destructor');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('OOPs', 'Which keyword is used to inherit from a base class?', 'inherits', 'extends', 'derive', 'implements', 'extends');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('OOPs', 'Which of the following allows one class to be derived from another?', 'Abstraction', 'Polymorphism', 'Inheritance', 'Encapsulation', 'Inheritance');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('OOPs', 'Which feature of OOP indicates code reusability?', 'Encapsulation', 'Polymorphism', 'Inheritance', 'Abstraction', 'Inheritance');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('OOPs', 'Which keyword prevents inheritance of a class?', 'static', 'final', 'sealed', 'const', 'final');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('OOPs', 'Which function is used to allocate memory for an object?', 'malloc()', 'alloc()', 'new', 'create()', 'new');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('OOPs', 'Which function releases memory occupied by an object?', 'delete', 'free()', 'remove()', 'clear()', 'delete');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('OOPs', 'Which type of inheritance involves a single base class and multiple derived classes?', 'Multiple', 'Hierarchical', 'Multilevel', 'Hybrid', 'Hierarchical');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('OOPs', 'Which type of inheritance involves multiple base classes?', 'Single', 'Multilevel', 'Multiple', 'Hierarchical', 'Multiple');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('OOPs', 'What is function overloading?', 'Functions with same name but different parameters', 'Functions with different names', 'Functions with same return type', 'None', 'Functions with same name but different parameters');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('OOPs', 'What is function overriding?', 'Redefining base class function in derived class', 'Using the same name in same class', 'Using multiple classes', 'Overloading functions', 'Redefining base class function in derived class');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('OOPs', 'Which of the following is true about constructors?', 'They can be overloaded', 'They return values', 'They are virtual', 'They cannot be defined', 'They can be overloaded');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('OOPs', 'Which of the following functions cannot be virtual?', 'Constructor', 'Destructor', 'Member function', 'All can be virtual', 'Constructor');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('OOPs', 'Which keyword defines a virtual function?', 'virtual', 'abstract', 'override', 'pure', 'virtual');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('OOPs', 'Which function must be implemented in derived class when declared pure virtual?', 'Default', 'Static', 'Pure virtual', 'Override', 'Pure virtual');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('OOPs', 'An abstract class can contain:', 'Only abstract methods', 'Only variables', 'Both abstract and concrete methods', 'Only constructors', 'Both abstract and concrete methods');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('OOPs', 'What is data hiding in OOP?', 'Protecting data from unauthorized access', 'Hiding unnecessary data', 'Data abstraction', 'Data deletion', 'Protecting data from unauthorized access');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('OOPs', 'What is an interface in OOP?', 'A class with only abstract methods', 'A class with constructors', 'A base class with variables', 'None', 'A class with only abstract methods');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('OOPs', 'Which of the following is not a type of inheritance?', 'Single', 'Multiple', 'Hybrid', 'Parallel', 'Parallel');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('OOPs', 'Which of these best describes polymorphism?', 'One interface, multiple methods', 'Many interfaces, one method', 'Data hiding', 'Abstraction', 'One interface, multiple methods');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('OOPs', 'What is the base class for all classes in Java?', 'Base', 'Object', 'Main', 'Parent', 'Object');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('OOPs', 'What is the access specifier for base class members if none is specified?', 'Private', 'Public', 'Protected', 'Default', 'Private');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('OOPs', 'What is the purpose of the super keyword?', 'Call parent class constructor or method', 'Access private members', 'Call child class method', 'Create new object', 'Call parent class constructor or method');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('OOPs', 'What is dynamic binding?', 'Binding function call at runtime', 'Binding at compile time', 'Variable binding', 'Static memory binding', 'Binding function call at runtime');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('OOPs', 'What is static binding?', 'Binding function call at compile time', 'Binding at runtime', 'Dynamic dispatch', 'Virtual call', 'Binding function call at compile time');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('OOPs', 'Which principle hides implementation details?', 'Abstraction', 'Encapsulation', 'Inheritance', 'Polymorphism', 'Abstraction');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('OOPs', 'Which principle combines data and methods?', 'Encapsulation', 'Abstraction', 'Inheritance', 'Polymorphism', 'Encapsulation');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('OOPs', 'Which of the following allows creating a copy of an object?', 'Copy constructor', 'Assignment operator', 'Overloading', 'Default constructor', 'Copy constructor');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('OOPs', 'Which feature of OOP is used to implement real-world entities?', 'Encapsulation', 'Abstraction', 'Polymorphism', 'Inheritance', 'Abstraction');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('OOPs', 'Which OOP concept ensures only essential details are visible?', 'Encapsulation', 'Abstraction', 'Polymorphism', 'Inheritance', 'Abstraction');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('OOPs', 'What is the purpose of a virtual function?', 'To achieve runtime polymorphism', 'To hide data', 'To overload functions', 'To improve speed', 'To achieve runtime polymorphism');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('OOPs', 'What is method overriding?', 'Redefining base class method in derived class', 'Defining new function', 'Overloading operators', 'Changing access specifier', 'Redefining base class method in derived class');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('OOPs', 'Which of these keywords is used to prevent overriding?', 'final', 'const', 'sealed', 'static', 'final');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('OOPs', 'An abstract class cannot be:', 'Instantiated', 'Inherited', 'Overridden', 'Defined', 'Instantiated');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('OOPs', 'Which mechanism is used to achieve dynamic polymorphism?', 'Virtual function', 'Constructor', 'Operator overloading', 'Templates', 'Virtual function');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('OOPs', 'Which principle ensures code extensibility and flexibility?', 'Polymorphism', 'Abstraction', 'Encapsulation', 'Inheritance', 'Polymorphism');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('OOPs', 'Which OOP feature allows different objects to respond uniquely to the same message?', 'Polymorphism', 'Inheritance', 'Abstraction', 'Encapsulation', 'Polymorphism');
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('DBMS', 'What does DBMS stand for?', 'Database Management System', 'Data Base Managing Software', 'Data Management System', 'Database Manipulation Software', 'Database Management System');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('DBMS', 'Which of the following is not a type of database?', 'Hierarchical', 'Network', 'Relational', 'Distributed File', 'Distributed File');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('DBMS', 'Which language is used to manage data in a database?', 'DML', 'DDL', 'DCL', 'All of the above', 'All of the above');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('DBMS', 'What does DDL stand for?', 'Data Definition Language', 'Data Description Language', 'Data Derivation Language', 'Database Description Language', 'Data Definition Language');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('DBMS', 'Which command is used to remove a table from a database?', 'DELETE', 'REMOVE', 'DROP', 'CLEAR', 'DROP');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('DBMS', 'Which command is used to modify the structure of a table?', 'UPDATE', 'ALTER', 'MODIFY', 'CHANGE', 'ALTER');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('DBMS', 'Which command is used to remove all records from a table without removing the table structure?', 'DELETE', 'TRUNCATE', 'DROP', 'REMOVE', 'TRUNCATE');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('DBMS', 'Which SQL keyword is used to sort the result-set?', 'ORDER', 'SORT', 'ORDER BY', 'GROUP BY', 'ORDER BY');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('DBMS', 'Which of the following is a valid SQL aggregate function?', 'SUM()', 'LENGTH()', 'ROUND()', 'TRIM()', 'SUM()');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('DBMS', 'Which clause is used to filter records in SQL?', 'WHERE', 'ORDER BY', 'GROUP BY', 'FROM', 'WHERE');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('DBMS', 'What is a primary key?', 'A key that uniquely identifies each record', 'A key that can be null', 'A key that duplicates values', 'A key that links two tables', 'A key that uniquely identifies each record');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('DBMS', 'What is a foreign key?', 'A key that links two tables', 'A key that uniquely identifies records', 'A key used to store nulls', 'A key that is duplicated', 'A key that links two tables');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('DBMS', 'Which of the following ensures data integrity?', 'Primary Key', 'Foreign Key', 'Constraints', 'All of the above', 'All of the above');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('DBMS', 'What does normalization do?', 'Reduces redundancy', 'Increases redundancy', 'Increases data size', 'Deletes data', 'Reduces redundancy');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('DBMS', 'Which normal form removes partial dependency?', '1NF', '2NF', '3NF', 'BCNF', '2NF');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('DBMS', 'Which normal form removes transitive dependency?', '1NF', '2NF', '3NF', 'BCNF', '3NF');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('DBMS', 'In relational model, data is stored in:', 'Tables', 'Trees', 'Graphs', 'Files', 'Tables');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('DBMS', 'Which of the following uniquely identifies a record in a table?', 'Primary Key', 'Foreign Key', 'Index', 'View', 'Primary Key');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('DBMS', 'What is a view in SQL?', 'A virtual table', 'A real table', 'A key', 'A constraint', 'A virtual table');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('DBMS', 'Which command is used to create a new table?', 'CREATE TABLE', 'INSERT TABLE', 'NEW TABLE', 'MAKE TABLE', 'CREATE TABLE');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('DBMS', 'Which SQL statement is used to update data?', 'UPDATE', 'MODIFY', 'ALTER', 'SET', 'UPDATE');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('DBMS', 'Which SQL statement is used to retrieve data?', 'SELECT', 'GET', 'RETRIEVE', 'SHOW', 'SELECT');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('DBMS', 'Which SQL clause groups rows with same values?', 'GROUP BY', 'ORDER BY', 'WHERE', 'HAVING', 'GROUP BY');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('DBMS', 'Which clause filters grouped data?', 'HAVING', 'WHERE', 'GROUP BY', 'ORDER BY', 'HAVING');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('DBMS', 'What does DML stand for?', 'Data Manipulation Language', 'Data Management Language', 'Data Modification Language', 'Database Manipulation Language', 'Data Manipulation Language');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('DBMS', 'Which command is used to insert data into a table?', 'INSERT INTO', 'ADD INTO', 'PUT INTO', 'UPDATE', 'INSERT INTO');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('DBMS', 'Which of the following is not a DML command?', 'SELECT', 'INSERT', 'DELETE', 'CREATE', 'CREATE');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('DBMS', 'What is a transaction?', 'A logical unit of work', 'A database', 'A query', 'A command', 'A logical unit of work');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('DBMS', 'Which of the following is not a property of transaction?', 'Atomicity', 'Consistency', 'Dependency', 'Durability', 'Dependency');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('DBMS', 'What does ACID stand for in DBMS?', 'Atomicity, Consistency, Isolation, Durability', 'Accuracy, Consistency, Isolation, Durability', 'Atomicity, Correctness, Isolation, Dependability', 'Atomicity, Consistency, Integrity, Durability', 'Atomicity, Consistency, Isolation, Durability');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('DBMS', 'Which command is used to save a transaction?', 'COMMIT', 'SAVE', 'ROLLBACK', 'END', 'COMMIT');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('DBMS', 'Which command is used to undo a transaction?', 'ROLLBACK', 'UNDO', 'CANCEL', 'REVERT', 'ROLLBACK');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('DBMS', 'Which command is used to grant privileges?', 'GRANT', 'ALLOW', 'PERMIT', 'AUTHORIZE', 'GRANT');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('DBMS', 'Which command is used to remove privileges?', 'REVOKE', 'REMOVE', 'DELETE', 'DENY', 'REVOKE');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('DBMS', 'Which of the following is used to maintain database security?', 'Authorization', 'Normalization', 'Decomposition', 'Join', 'Authorization');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('DBMS', 'Which of the following is a non-procedural query language?', 'SQL', 'C', 'Python', 'C++', 'SQL');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('DBMS', 'Which key uniquely identifies a row in a table?', 'Primary Key', 'Foreign Key', 'Candidate Key', 'Super Key', 'Primary Key');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('DBMS', 'Which key can be chosen as a primary key?', 'Candidate Key', 'Super Key', 'Foreign Key', 'Alternate Key', 'Candidate Key');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('DBMS', 'Which key is formed by combining two or more attributes?', 'Composite Key', 'Candidate Key', 'Foreign Key', 'Primary Key', 'Composite Key');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('DBMS', 'Which of these relationships represents a many-to-many relationship?', 'Students and Courses', 'Teacher and Department', 'Country and Capital', 'Employee and ID', 'Students and Courses');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('DBMS', 'Which operator is used to combine the result of two SELECT statements?', 'UNION', 'JOIN', 'INTERSECT', 'MERGE', 'UNION');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('DBMS', 'Which of the following is used to remove duplicates in result-set?', 'DISTINCT', 'UNIQUE', 'REMOVE', 'DELETE', 'DISTINCT');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('DBMS', 'Which command is used to rename a table?', 'ALTER TABLE RENAME', 'RENAME TABLE', 'MODIFY TABLE', 'CHANGE TABLE', 'ALTER TABLE RENAME');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('DBMS', 'What is a join operation?', 'Combining rows from two or more tables', 'Deleting data', 'Sorting data', 'Filtering data', 'Combining rows from two or more tables');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('DBMS', 'Which join returns all records from both tables?', 'FULL JOIN', 'INNER JOIN', 'LEFT JOIN', 'RIGHT JOIN', 'FULL JOIN');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('DBMS', 'Which join returns only matching records?', 'INNER JOIN', 'LEFT JOIN', 'FULL JOIN', 'CROSS JOIN', 'INNER JOIN');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('DBMS', 'Which of the following eliminates redundancy?', 'Normalization', 'Denormalization', 'Indexing', 'Decomposition', 'Normalization');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('DBMS', 'Which level of data abstraction describes how data is stored?', 'Physical Level', 'Logical Level', 'View Level', 'Conceptual Level', 'Physical Level');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('DBMS', 'Which level of abstraction describes what data is stored?', 'Logical Level', 'Physical Level', 'View Level', 'Schema Level', 'Logical Level');
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Operating System', 'What is an Operating System?', 'A system software that manages hardware and software resources', 'A hardware device', 'An application program', 'A compiler', 'A system software that manages hardware and software resources');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Operating System', 'Which of the following is not an operating system?', 'Linux', 'Windows', 'Oracle', 'macOS', 'Oracle');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Operating System', 'Which of the following is a function of the Operating System?', 'Memory Management', 'File Management', 'Process Management', 'All of the above', 'All of the above');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Operating System', 'Which of the following is a type of Operating System?', 'Batch OS', 'Real-Time OS', 'Distributed OS', 'All of the above', 'All of the above');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Operating System', 'Which part of the Operating System remains in memory always?', 'Shell', 'Kernel', 'Command Interpreter', 'API', 'Kernel');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Operating System', 'What is the main purpose of an Operating System?', 'To provide an environment for execution of programs', 'To compile programs', 'To convert code', 'To debug code', 'To provide an environment for execution of programs');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Operating System', 'What is multitasking?', 'Executing multiple tasks simultaneously', 'Executing one task at a time', 'Running background services', 'Running virtual machines', 'Executing multiple tasks simultaneously');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Operating System', 'What is a process?', 'A program in execution', 'A system call', 'A code segment', 'A data structure', 'A program in execution');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Operating System', 'What is a thread?', 'A lightweight process', 'A heavy process', 'An independent program', 'A file descriptor', 'A lightweight process');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Operating System', 'What is process scheduling?', 'Deciding order of process execution', 'Allocating memory', 'Managing files', 'Allocating devices', 'Deciding order of process execution');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Operating System', 'Which scheduling algorithm is non-preemptive?', 'FCFS', 'Round Robin', 'SJF (Preemptive)', 'Priority (Preemptive)', 'FCFS');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Operating System', 'Which scheduling algorithm gives equal time to each process?', 'Round Robin', 'FCFS', 'SJF', 'Priority', 'Round Robin');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Operating System', 'Which of the following is not a process state?', 'Running', 'Ready', 'New', 'Deleted', 'Deleted');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Operating System', 'What is a deadlock?', 'Processes waiting for each other indefinitely', 'Processes running simultaneously', 'Process terminated', 'Process blocked temporarily', 'Processes waiting for each other indefinitely');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Operating System', 'Which condition is not necessary for deadlock?', 'Mutual Exclusion', 'Hold and Wait', 'Preemption', 'Circular Wait', 'Preemption');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Operating System', 'Which algorithm can avoid deadlock?', 'Banker’s Algorithm', 'FIFO', 'Round Robin', 'LRU', 'Banker’s Algorithm');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Operating System', 'What is context switching?', 'Saving and restoring state of process', 'Changing memory layout', 'Terminating a process', 'Allocating CPU', 'Saving and restoring state of process');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Operating System', 'What is the ready queue?', 'Queue of processes waiting for CPU', 'Queue of I/O devices', 'Queue of finished jobs', 'Queue of suspended jobs', 'Queue of processes waiting for CPU');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Operating System', 'What is a semaphore?', 'Synchronization tool', 'Process', 'Memory block', 'File system', 'Synchronization tool');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Operating System', 'Who introduced the concept of semaphore?', 'Edsger Dijkstra', 'Charles Babbage', 'Alan Turing', 'Dennis Ritchie', 'Edsger Dijkstra');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Operating System', 'What is thrashing?', 'Excessive paging', 'CPU overload', 'Deadlock', 'Cache miss', 'Excessive paging');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Operating System', 'What is paging?', 'Memory management technique', 'File system method', 'Scheduling algorithm', 'I/O technique', 'Memory management technique');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Operating System', 'What is segmentation?', 'Division of memory into variable-sized blocks', 'Fixed partitioning', 'Process scheduling', 'Interrupt handling', 'Division of memory into variable-sized blocks');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Operating System', 'What is virtual memory?', 'Memory used when physical memory is full', 'Cache memory', 'ROM', 'Secondary memory only', 'Memory used when physical memory is full');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Operating System', 'Which of the following is a page replacement algorithm?', 'FIFO', 'LRU', 'Optimal', 'All of the above', 'All of the above');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Operating System', 'Which of the following is a disk scheduling algorithm?', 'FCFS', 'SSTF', 'SCAN', 'All of the above', 'All of the above');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Operating System', 'Which disk scheduling algorithm may cause starvation?', 'SSTF', 'FCFS', 'SCAN', 'C-SCAN', 'SSTF');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Operating System', 'What is swapping?', 'Moving processes between main and secondary memory', 'Switching context', 'Replacing pages', 'Deleting files', 'Moving processes between main and secondary memory');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Operating System', 'What is demand paging?', 'Loading pages into memory only when required', 'Preloading all pages', 'Removing all pages', 'None', 'Loading pages into memory only when required');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Operating System', 'What is a system call?', 'Request to the OS by a program', 'User command', 'CPU instruction', 'Compiler call', 'Request to the OS by a program');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Operating System', 'Which of the following is not a system call?', 'read()', 'write()', 'fork()', 'printf()', 'printf()');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Operating System', 'What is a shell?', 'Command interpreter', 'Memory manager', 'Device driver', 'File system', 'Command interpreter');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Operating System', 'Which of the following is not a type of system call?', 'Process control', 'File manipulation', 'Communication', 'Compilation', 'Compilation');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Operating System', 'What is spooling?', 'Overlapping of I/O with processing', 'Paging process', 'Scheduling technique', 'Memory management', 'Overlapping of I/O with processing');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Operating System', 'Which OS is based on open source?', 'Linux', 'Windows', 'macOS', 'DOS', 'Linux');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Operating System', 'Which OS is used in mobile phones?', 'Android', 'Linux', 'Unix', 'Windows 10', 'Android');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Operating System', 'Which of the following is used for synchronization?', 'Semaphore', 'Mutex', 'Monitor', 'All of the above', 'All of the above');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Operating System', 'What is a critical section?', 'Part of code accessing shared resources', 'Part of code accessing local variables', 'Initialization code', 'Function definition', 'Part of code accessing shared resources');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Operating System', 'What is the purpose of interrupt?', 'To get attention of CPU', 'To stop process', 'To increase speed', 'To manage files', 'To get attention of CPU');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Operating System', 'Which register stores the address of the next instruction?', 'Program Counter', 'Stack Pointer', 'Accumulator', 'Memory Register', 'Program Counter');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Operating System', 'Which of the following is not a scheduling criteria?', 'CPU utilization', 'Throughput', 'Turnaround time', 'Virtualization', 'Virtualization');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Operating System', 'What is starvation?', 'Process waiting indefinitely for resource', 'Deadlock condition', 'Paging failure', 'CPU overload', 'Process waiting indefinitely for resource');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Operating System', 'Which OS uses a command-line interface?', 'MS-DOS', 'Windows 10', 'Android', 'macOS', 'MS-DOS');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Operating System', 'Which OS manages network communication?', 'Network Operating System', 'Batch OS', 'Real-Time OS', 'Time Sharing OS', 'Network Operating System');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Operating System', 'What is the function of device driver?', 'Acts as interface between device and OS', 'Manages memory', 'Schedules processes', 'Handles files', 'Acts as interface between device and OS');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Operating System', 'What is caching?', 'Storing frequently used data for quick access', 'Storing data permanently', 'Deleting temporary files', 'Backing up data', 'Storing frequently used data for quick access');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Operating System', 'Which of the following is a non-preemptive scheduling algorithm?', 'FCFS', 'Round Robin', 'SJF (Preemptive)', 'Priority (Preemptive)', 'FCFS');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Operating System', 'Which system call is used to create a new process?', 'fork()', 'exec()', 'exit()', 'wait()', 'fork()');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Operating System', 'Which of the following OS is not multitasking?', 'MS-DOS', 'Linux', 'Windows', 'Unix', 'MS-DOS');
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Networking', 'What is computer networking?', 'Connecting multiple computers to share resources', 'Connecting two printers', 'Using one computer for all tasks', 'Designing websites', 'Connecting multiple computers to share resources');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Networking', 'Which device is used to connect different networks?', 'Router', 'Switch', 'Hub', 'Repeater', 'Router');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Networking', 'Which device operates at the Data Link layer?', 'Switch', 'Router', 'Hub', 'Gateway', 'Switch');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Networking', 'Which device operates at the Network layer?', 'Router', 'Switch', 'Bridge', 'Repeater', 'Router');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Networking', 'What is the full form of IP?', 'Internet Protocol', 'Internal Process', 'Internet Provider', 'Integrated Packet', 'Internet Protocol');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Networking', 'Which protocol is used to transfer files over the Internet?', 'FTP', 'SMTP', 'HTTP', 'SNMP', 'FTP');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Networking', 'Which layer of the OSI model provides logical addressing?', 'Network Layer', 'Data Link Layer', 'Transport Layer', 'Session Layer', 'Network Layer');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Networking', 'Which layer is responsible for end-to-end communication?', 'Transport Layer', 'Network Layer', 'Data Link Layer', 'Application Layer', 'Transport Layer');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Networking', 'Which protocol is used for email?', 'SMTP', 'FTP', 'HTTP', 'SNMP', 'SMTP');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Networking', 'Which protocol is used to securely browse websites?', 'HTTPS', 'HTTP', 'FTP', 'SMTP', 'HTTPS');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Networking', 'What is the default port for HTTP?', '80', '21', '25', '443', '80');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Networking', 'What is the default port for HTTPS?', '443', '80', '22', '23', '443');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Networking', 'Which topology uses a single central cable as backbone?', 'Bus Topology', 'Star Topology', 'Ring Topology', 'Mesh Topology', 'Bus Topology');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Networking', 'Which topology has a central hub or switch?', 'Star Topology', 'Ring Topology', 'Bus Topology', 'Mesh Topology', 'Star Topology');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Networking', 'Which topology provides the highest redundancy?', 'Mesh Topology', 'Star Topology', 'Bus Topology', 'Ring Topology', 'Mesh Topology');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Networking', 'Which layer of the OSI model ensures reliable transmission?', 'Transport Layer', 'Network Layer', 'Session Layer', 'Data Link Layer', 'Transport Layer');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Networking', 'What is TCP?', 'Transmission Control Protocol', 'Transfer Control Process', 'Transport Connection Port', 'Transmission Connection Process', 'Transmission Control Protocol');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Networking', 'What is UDP?', 'User Datagram Protocol', 'Universal Data Process', 'Unified Datagram Protocol', 'User Data Port', 'User Datagram Protocol');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Networking', 'Which protocol is connection-oriented?', 'TCP', 'UDP', 'IP', 'ICMP', 'TCP');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Networking', 'Which protocol is connectionless?', 'UDP', 'TCP', 'FTP', 'HTTP', 'UDP');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Networking', 'What is an IP address?', 'Unique identifier for a device on a network', 'Physical address of computer', 'DNS record', 'MAC address', 'Unique identifier for a device on a network');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Networking', 'What is the size of an IPv4 address?', '32 bits', '64 bits', '128 bits', '16 bits', '32 bits');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Networking', 'What is the size of an IPv6 address?', '128 bits', '32 bits', '64 bits', '256 bits', '128 bits');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Networking', 'Which command is used to check network connectivity?', 'ping', 'ipconfig', 'tracert', 'netstat', 'ping');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Networking', 'Which command shows IP configuration details?', 'ipconfig', 'ping', 'nslookup', 'route', 'ipconfig');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Networking', 'What is the purpose of DNS?', 'Converts domain names to IP addresses', 'Converts IP addresses to MAC addresses', 'Encrypts data', 'Routes packets', 'Converts domain names to IP addresses');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Networking', 'Which device connects multiple computers in a LAN?', 'Switch', 'Router', 'Bridge', 'Modem', 'Switch');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Networking', 'Which device connects a LAN to the Internet?', 'Router', 'Switch', 'Hub', 'Repeater', 'Router');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Networking', 'Which device regenerates signals in a network?', 'Repeater', 'Hub', 'Switch', 'Router', 'Repeater');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Networking', 'Which protocol is used to send data packets?', 'IP', 'FTP', 'SMTP', 'HTTP', 'IP');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Networking', 'What is the function of ARP?', 'Maps IP address to MAC address', 'Maps MAC to IP', 'Encrypts packets', 'Routes packets', 'Maps IP address to MAC address');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Networking', 'Which layer of OSI model handles encryption?', 'Presentation Layer', 'Application Layer', 'Session Layer', 'Transport Layer', 'Presentation Layer');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Networking', 'Which protocol is used to retrieve emails?', 'POP3', 'SMTP', 'FTP', 'SNMP', 'POP3');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Networking', 'Which protocol is used to send emails?', 'SMTP', 'POP3', 'IMAP', 'FTP', 'SMTP');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Networking', 'What does MAC stand for?', 'Media Access Control', 'Message Access Code', 'Main Access Control', 'Memory Access Channel', 'Media Access Control');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Networking', 'Which address is hardcoded into a network card?', 'MAC Address', 'IP Address', 'DNS Address', 'Subnet Mask', 'MAC Address');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Networking', 'What is the main function of a firewall?', 'To filter incoming and outgoing traffic', 'To increase speed', 'To store data', 'To convert IPs', 'To filter incoming and outgoing traffic');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Networking', 'Which protocol provides error checking?', 'TCP', 'UDP', 'IP', 'ARP', 'TCP');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Networking', 'What is subnetting?', 'Dividing a network into smaller sub-networks', 'Combining two networks', 'Encrypting data', 'Routing packets', 'Dividing a network into smaller sub-networks');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Networking', 'Which layer creates, manages, and terminates sessions?', 'Session Layer', 'Application Layer', 'Transport Layer', 'Presentation Layer', 'Session Layer');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Networking', 'What is bandwidth?', 'Amount of data transmitted per second', 'Number of users', 'Speed of CPU', 'Type of cable', 'Amount of data transmitted per second');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Networking', 'Which transmission mode sends data both ways but one at a time?', 'Half Duplex', 'Simplex', 'Full Duplex', 'Parallel', 'Half Duplex');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Networking', 'Which transmission mode sends data simultaneously both ways?', 'Full Duplex', 'Half Duplex', 'Simplex', 'Serial', 'Full Duplex');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Networking', 'Which protocol is used to dynamically assign IP addresses?', 'DHCP', 'DNS', 'FTP', 'HTTP', 'DHCP');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Networking', 'Which layer adds the source and destination IP addresses?', 'Network Layer', 'Transport Layer', 'Data Link Layer', 'Session Layer', 'Network Layer');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Networking', 'Which layer segments and reassembles data?', 'Transport Layer', 'Network Layer', 'Session Layer', 'Data Link Layer', 'Transport Layer');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Networking', 'Which type of cable provides the highest speed?', 'Fiber Optic', 'Coaxial', 'Twisted Pair', 'Parallel', 'Fiber Optic');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Networking', 'Which protocol translates domain names to IP addresses?', 'DNS', 'DHCP', 'FTP', 'SNMP', 'DNS');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Networking', 'Which network covers the largest area?', 'WAN', 'LAN', 'MAN', 'PAN', 'WAN');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Networking', 'Which type of network is used within a building?', 'LAN', 'WAN', 'MAN', 'PAN', 'LAN');
+
+INSERT INTO question (topic, question_text, option_a, option_b, option_c, option_d, correct_answer)
+VALUES ('Networking', 'Which network is used for personal devices like Bluetooth?', 'PAN', 'LAN', 'MAN', 'WAN', 'PAN');
+</sql><current_tab id="0"/></tab_sql></sqlb_project>

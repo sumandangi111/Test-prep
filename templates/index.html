@@ -1,0 +1,71 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz Selector</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+   <header>
+        {% if logged_in %}
+            <p class="welcome-msg">
+                Welcome, **{{ current_user }}**! 
+                <a href="{{ url_for('logout') }}" class="button small">Logout</a>
+            </p>
+        {% endif %}
+    </header>
+    <div class="container">
+        <h1>Welcome to the Quiz App!</h1>
+        <form method="POST" action="{{ url_for('start_quiz') }}" id="start-form">
+            <label for="topic">Select a Topic:</label>
+            <select name="topic" id="topic" required>
+                {% for topic in topics %}
+                <option value="{{ topic }}">{{ topic }}</option>
+                {% endfor %}
+            </select>
+
+            <label for="num_questions">Number of Questions (Max {{ topics|length * 5 if topics else 0 }} available):</label>
+            <input type="number" id="num_questions" name="num_questions" min="1" max="10" value="5" required>
+
+            <button type="submit">Start Quiz</button>
+        </form>
+    </div>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Testprep</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body class="dashboard-page">
+    {% include 'navbar-logged-in.html' %}
+    
+    <div class="container">
+        {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+            {% for category, message in messages %}
+            <div class="flash-message {{ category }}">{{ message }}</div>
+            {% endfor %}
+        {% endif %}
+        {% endwith %}
+        <h1>Welcome to Testprep Dashboard 🧠</h1>
+
+        <form method="POST" action="{{ url_for('start_quiz') }}" id="start-form">
+            <label for="topic">Select a Topic:</label>
+            <select name="topic" id="topic" required>
+                {% for topic in topics %}
+                <option value="{{ topic }}">{{ topic }}</option>
+                {% endfor %}
+            </select>
+
+        <label for="num_questions">Number of Questions (Max 50 or available in topic):</label>
+            <input type="number" id="num_questions" name="num_questions" min="1" max="50" value="5" required> 
+            <button type="submit">Start Quiz</button>   
+        </form>
+    </div>
+</body>
+</html>
