@@ -39,11 +39,11 @@ Access application:-
 http://<EC2-IP>:30007
 
 Rolling Update:-
-docker build -t sumanddevops/quiz-app:v2 .
-docker push sumanddevops/quiz-app:v2
-kubectl set image deployment/quiz-app quiz-container=sumanddevops/quiz-app:v2
-kubectl rollout status deployment/quiz-app
-kubectl rollout history deployment/quiz-app
+- docker build -t sumanddevops/quiz-app:v2 .
+- docker push sumanddevops/quiz-app:v2
+- kubectl set image deployment/quiz-app quiz-container=sumanddevops/quiz-app:v2
+- kubectl rollout status deployment/quiz-app
+- kubectl rollout history deployment/quiz-app
 
 Features:-
 - Containerized deployment
@@ -58,7 +58,7 @@ Challenges Faced:-
 - Kubernetes configuration complexity
 
 Results:-
-Application successfully deployed on Kubernetes
-Rolling updates implemented
-External access enabled
-High availability achieved
+- Application successfully deployed on Kubernetes
+- Rolling updates implemented
+- External access enabled
+- High availability achieved
